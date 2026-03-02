@@ -26,4 +26,4 @@ jobs:
         env:
           FINNHUB_API_KEY: ${{ secrets.FINNHUB_API_KEY }}
         run: |
-          python agent.py
+          python apps-test/agentic-tsla-bot/agent.py
