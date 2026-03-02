@@ -2,9 +2,6 @@ name: Run TSLA Stock Agent
 
 on:
   schedule:
-    # 4 PM Central Time (CT) on March 1, 2026
-    # CT = UTC-6 (assuming standard time)
-    # 4 PM CT = 22:00 UTC
     - cron: '0 22 1 3 *'
   workflow_dispatch:
 
